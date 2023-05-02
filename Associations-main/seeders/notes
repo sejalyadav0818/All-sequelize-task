@@ -1,0 +1,22 @@
+//Association
+users => user detail one to one 
+user <=> post one to many 
+post <=>  tags many to many 
+
+//polymorphic 
+ image <>=> comments one to many 
+ 
+//polymorphic 
+multiple tage having multipe image and videos using 3rd table tag_taggable [many to many ]
+https://codinglollypop.medium.com/polymorphic-association-in-sequelize-with-migration-bc084af2ba78
+
+//////////////////////////////////////////////
+
+Lazy Loading :using methods two query execute 
+ https://sebhastian.com/sequelize-lazy-loading/
+
+Eager Laoding :using include onliy one query is use
+
+https://github.com/appacademy/practice-for-week-11-sequelize-lazy-eager-queries-short-practice/tree/main/server
+
+scope : reuse code , you have to write query one tme ans reuse it.

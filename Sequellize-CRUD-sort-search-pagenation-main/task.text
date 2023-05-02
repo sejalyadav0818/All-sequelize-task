@@ -1,0 +1,6 @@
+1.create table usiing migration in sequelize  multiple coulmns  done insert data usin seeder
+2.perform searching  pass only signle query string and apply search on all the filds  done
+2.perform sorting on similer data by asc or desc done
+4.perfrom pagenation on all the data  done
+5.perfrom crud done
+...........................................
